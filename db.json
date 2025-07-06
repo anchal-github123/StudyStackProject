@@ -1,0 +1,25 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Notebook",
+      "price": 80,
+      "image": "/images/notebook.jpg",
+      "category": "Books"
+    },
+    {
+      "id": 2,
+      "name": "Pen",
+      "price": 20,
+      "image": "/images/pen.jpg",
+      "category": "Stationery"
+    },
+    {
+      "id": 3,
+      "name": "Eraser",
+      "price": 10,
+      "image": "/images/eraser.jpg",
+      "category": "Stationery"
+    }
+  ]
+}
