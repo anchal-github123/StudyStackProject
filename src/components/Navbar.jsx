@@ -1,5 +1,6 @@
-import Navlink from "react-router-dom";
+import {NavLink} from "react-router-dom";
 import logo from "../assets/logo.svg";
+import Home from "../pages/Home";
 export default function Navbar() {
   return (
    <nav>
@@ -10,7 +11,7 @@ export default function Navbar() {
    {/* navbar items */}
    <div>
     <ul>
-    <Navlink to="/Home" element></Navlink>
+    <NavLink to="/" element={<Home></Home>}></NavLink>
    
     </ul>
    </div>
