@@ -1,7 +1,12 @@
 import {NavLink} from "react-router-dom";
 import logo from "../assets/logo.svg";
-import Home from "../pages/Home";
+
 export default function Navbar() {
+   const navitem=[{link:"/",ele:"Home" },
+    {link:"/About",ele:"About"}
+  ]
+
+
   return (
    <nav>
    {/* logo section */}
@@ -11,7 +16,11 @@ export default function Navbar() {
    {/* navbar items */}
    <div>
     <ul>
-    <NavLink to="/" element={<Home></Home>}></NavLink>
+    {
+      navitem.map((item,ind)=>{
+        return (<li key={ind}><NavLink to={item.link}>{item.ele}</NavLink></li>)
+      })
+    }
    
     </ul>
    </div>
