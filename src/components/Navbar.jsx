@@ -1,6 +1,16 @@
 
+
 import logo from "../assets/logo.svg";
 export default function Navbar() {
+
+
+
+
+
+
+
+
+
   return (
    <nav>
    {/* logo section */}
@@ -10,6 +20,14 @@ export default function Navbar() {
    {/* navbar items */}
    <div>
     <ul>
+
+
+
+
+
+
+
+    
   
    
     </ul>
