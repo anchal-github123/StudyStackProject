@@ -6,8 +6,7 @@ export default function Navbar() {
     {link:"/About",ele:"About"}
   ]
 
-
-  return (
+return (
    <nav>
    {/* logo section */}
    <div>
